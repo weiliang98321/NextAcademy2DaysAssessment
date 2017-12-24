@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D4A09ED909BA19CBE445430 /* Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836CA07A4FDE567845E1AFAC /* Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework */; };
+		C0A8B0DA1FEFEA7200997676 /* ProfileScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8B0D91FEFEA7200997676 /* ProfileScreenTableViewCell.swift */; };
 		C0E0402A1FEE038300A6BC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040291FEE038300A6BC93 /* AppDelegate.swift */; };
-		C0E0402C1FEE038300A6BC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0402B1FEE038300A6BC93 /* ViewController.swift */; };
+		C0E0402C1FEE038300A6BC93 /* ListingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0402B1FEE038300A6BC93 /* ListingScreenViewController.swift */; };
 		C0E0402F1FEE038300A6BC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E0402D1FEE038300A6BC93 /* Main.storyboard */; };
 		C0E040311FEE038300A6BC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E040301FEE038300A6BC93 /* Assets.xcassets */; };
 		C0E040341FEE038300A6BC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E040321FEE038300A6BC93 /* LaunchScreen.storyboard */; };
+		C0E0403C1FEE04C700A6BC93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E0403B1FEE04C600A6BC93 /* GoogleService-Info.plist */; };
+		C0E0403E1FEE067C00A6BC93 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E0403D1FEE067C00A6BC93 /* Auth.storyboard */; };
+		C0E040411FEE08F900A6BC93 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040401FEE08F900A6BC93 /* LoginScreenViewController.swift */; };
+		C0E040431FEE091000A6BC93 /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040421FEE091000A6BC93 /* SignupScreenViewController.swift */; };
+		C0E040451FEE347200A6BC93 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040441FEE347200A6BC93 /* ProfileScreenViewController.swift */; };
+		C0E040471FEE4C9300A6BC93 /* PostingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040461FEE4C9300A6BC93 /* PostingScreenViewController.swift */; };
+		C0E040491FEE4D1B00A6BC93 /* DetailScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040481FEE4D1B00A6BC93 /* DetailScreenViewController.swift */; };
+		C0E0404B1FEE529200A6BC93 /* ListingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0404A1FEE529100A6BC93 /* ListingScreenTableViewCell.swift */; };
+		C0E0404D1FEEB36000A6BC93 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0404C1FEEB36000A6BC93 /* Event.swift */; };
+		C0E0404F1FEFA19E00A6BC93 /* SortScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0404E1FEFA19E00A6BC93 /* SortScreenTableViewCell.swift */; };
+		C0E040511FEFA23500A6BC93 /* SortScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E040501FEFA23500A6BC93 /* SortScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DDE8E0CAB0755CBFAB69F3C /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).debug.xcconfig"; sourceTree = "<group>"; };
+		836CA07A4FDE567845E1AFAC /* Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B787D2E77E5A85B0C674EB3E /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).release.xcconfig"; path = "Pods/Target Support Files/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).release.xcconfig"; sourceTree = "<group>"; };
+		C0A8B0D91FEFEA7200997676 /* ProfileScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenTableViewCell.swift; sourceTree = "<group>"; };
 		C0E040261FEE038300A6BC93 /* NextAcademy - iOS 2Days Assessment (Oct 2017).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NextAcademy - iOS 2Days Assessment (Oct 2017).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E040291FEE038300A6BC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0E0402B1FEE038300A6BC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0E0402B1FEE038300A6BC93 /* ListingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingScreenViewController.swift; sourceTree = "<group>"; };
 		C0E0402E1FEE038300A6BC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E040301FEE038300A6BC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E040331FEE038300A6BC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E040351FEE038300A6BC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E0403B1FEE04C600A6BC93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0E0403D1FEE067C00A6BC93 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		C0E040401FEE08F900A6BC93 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		C0E040421FEE091000A6BC93 /* SignupScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		C0E040441FEE347200A6BC93 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		C0E040461FEE4C9300A6BC93 /* PostingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingScreenViewController.swift; sourceTree = "<group>"; };
+		C0E040481FEE4D1B00A6BC93 /* DetailScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewController.swift; sourceTree = "<group>"; };
+		C0E0404A1FEE529100A6BC93 /* ListingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingScreenTableViewCell.swift; sourceTree = "<group>"; };
+		C0E0404C1FEEB36000A6BC93 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C0E0404E1FEFA19E00A6BC93 /* SortScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortScreenTableViewCell.swift; sourceTree = "<group>"; };
+		C0E040501FEFA23500A6BC93 /* SortScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4A09ED909BA19CBE445430 /* Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CB7AB7A83E5FF6ECC605BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE8E0CAB0755CBFAB69F3C /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).debug.xcconfig */,
+				B787D2E77E5A85B0C674EB3E /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE14BFC6554DCC4481F57D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836CA07A4FDE567845E1AFAC /* Pods_NextAcademy___iOS_2Days_Assessment__Oct_2017_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0E0401D1FEE038300A6BC93 = {
 			isa = PBXGroup;
 			children = (
 				C0E040281FEE038300A6BC93 /* NextAcademy - iOS 2Days Assessment (Oct 2017) */,
 				C0E040271FEE038300A6BC93 /* Products */,
+				6CB7AB7A83E5FF6ECC605BFA /* Pods */,
+				AE14BFC6554DCC4481F57D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +103,33 @@
 			isa = PBXGroup;
 			children = (
 				C0E040291FEE038300A6BC93 /* AppDelegate.swift */,
-				C0E0402B1FEE038300A6BC93 /* ViewController.swift */,
+				C0E0404C1FEEB36000A6BC93 /* Event.swift */,
 				C0E0402D1FEE038300A6BC93 /* Main.storyboard */,
+				C0E0402B1FEE038300A6BC93 /* ListingScreenViewController.swift */,
+				C0E0404A1FEE529100A6BC93 /* ListingScreenTableViewCell.swift */,
+				C0E040461FEE4C9300A6BC93 /* PostingScreenViewController.swift */,
+				C0E040481FEE4D1B00A6BC93 /* DetailScreenViewController.swift */,
+				C0E040501FEFA23500A6BC93 /* SortScreenViewController.swift */,
+				C0E0404E1FEFA19E00A6BC93 /* SortScreenTableViewCell.swift */,
+				C0E040441FEE347200A6BC93 /* ProfileScreenViewController.swift */,
+				C0A8B0D91FEFEA7200997676 /* ProfileScreenTableViewCell.swift */,
+				C0E0403F1FEE08DA00A6BC93 /* Login */,
 				C0E040301FEE038300A6BC93 /* Assets.xcassets */,
 				C0E040321FEE038300A6BC93 /* LaunchScreen.storyboard */,
+				C0E0403B1FEE04C600A6BC93 /* GoogleService-Info.plist */,
 				C0E040351FEE038300A6BC93 /* Info.plist */,
 			);
 			path = "NextAcademy - iOS 2Days Assessment (Oct 2017)";
+			sourceTree = "<group>";
+		};
+		C0E0403F1FEE08DA00A6BC93 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C0E0403D1FEE067C00A6BC93 /* Auth.storyboard */,
+				C0E040401FEE08F900A6BC93 /* LoginScreenViewController.swift */,
+				C0E040421FEE091000A6BC93 /* SignupScreenViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E040381FEE038300A6BC93 /* Build configuration list for PBXNativeTarget "NextAcademy - iOS 2Days Assessment (Oct 2017)" */;
 			buildPhases = (
+				87197E6B0D664EBDE814F094 /* [CP] Check Pods Manifest.lock */,
 				C0E040221FEE038300A6BC93 /* Sources */,
 				C0E040231FEE038300A6BC93 /* Frameworks */,
 				C0E040241FEE038300A6BC93 /* Resources */,
+				0A8039E3D94C6CDC6540D3F1 /* [CP] Embed Pods Frameworks */,
+				C351237136809BE6F5F9462E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E040341FEE038300A6BC93 /* LaunchScreen.storyboard in Resources */,
+				C0E0403C1FEE04C700A6BC93 /* GoogleService-Info.plist in Resources */,
+				C0E0403E1FEE067C00A6BC93 /* Auth.storyboard in Resources */,
 				C0E040311FEE038300A6BC93 /* Assets.xcassets in Resources */,
 				C0E0402F1FEE038300A6BC93 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +204,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A8039E3D94C6CDC6540D3F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87197E6B0D664EBDE814F094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C351237136809BE6F5F9462E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)/Pods-NextAcademy - iOS 2Days Assessment (Oct 2017)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0E040221FEE038300A6BC93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E0402C1FEE038300A6BC93 /* ViewController.swift in Sources */,
+				C0E0404B1FEE529200A6BC93 /* ListingScreenTableViewCell.swift in Sources */,
+				C0E0404D1FEEB36000A6BC93 /* Event.swift in Sources */,
+				C0A8B0DA1FEFEA7200997676 /* ProfileScreenTableViewCell.swift in Sources */,
+				C0E040491FEE4D1B00A6BC93 /* DetailScreenViewController.swift in Sources */,
+				C0E040431FEE091000A6BC93 /* SignupScreenViewController.swift in Sources */,
+				C0E040471FEE4C9300A6BC93 /* PostingScreenViewController.swift in Sources */,
+				C0E0402C1FEE038300A6BC93 /* ListingScreenViewController.swift in Sources */,
 				C0E0402A1FEE038300A6BC93 /* AppDelegate.swift in Sources */,
+				C0E040451FEE347200A6BC93 /* ProfileScreenViewController.swift in Sources */,
+				C0E040511FEFA23500A6BC93 /* SortScreenViewController.swift in Sources */,
+				C0E040411FEE08F900A6BC93 /* LoginScreenViewController.swift in Sources */,
+				C0E0404F1FEFA19E00A6BC93 /* SortScreenTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +415,7 @@
 		};
 		C0E040391FEE038300A6BC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDE8E0CAB0755CBFAB69F3C /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +431,7 @@
 		};
 		C0E0403A1FEE038300A6BC93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B787D2E77E5A85B0C674EB3E /* Pods-NextAcademy - iOS 2Days Assessment (Oct 2017).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

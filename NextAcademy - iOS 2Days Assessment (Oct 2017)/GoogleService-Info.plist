@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>644084509807-8tmc50gbp2km77un9lqffo44o5203gnc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.644084509807-8tmc50gbp2km77un9lqffo44o5203gnc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBLrrGREL8i6HkiQDM9wMsOUZ0Xs195HwM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>644084509807</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Tan-Wei-Liang.NextAcademy---iOS-2Days-Assessment--Oct-2017-</string>
+	<key>PROJECT_ID</key>
+	<string>nextacademy-2-days-a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nextacademy-2-days-a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:644084509807:ios:5f9d97f2c95b7ba7</string>
+	<key>DATABASE_URL</key>
+	<string>https://nextacademy-2-days-a.firebaseio.com</string>
+</dict>
+</plist>
